@@ -1,0 +1,21 @@
+core: 8.x
+type: theme
+base theme: bootstrap
+
+name: 'ugu2018'
+description: 'Uses the Bootstrap framework LESS source files and must be compiled (not for beginners).'
+package: 'Bootstrap'
+
+regions:
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  header: 'Top Bar'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+
+
+  libraries-extend:
+    bootstrap/framework:
+      - ugu/framework
+      
